@@ -19,6 +19,9 @@ erl_crash.dump
 # Also ignore archive artifacts (built via "mix archive.build").
 *.ez
 
+# Also ignore all the generated images generated running the app
+*.png
+
 # Ignore package tarball (built via "mix hex.build").
 identicon-*.tar
 
